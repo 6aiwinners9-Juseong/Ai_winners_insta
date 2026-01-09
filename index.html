@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="ko" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>인스타그램 계정 개설 원스톱 가이드</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Pretendard:wght@300;400;600;700&display=swap');
+        
+        body {
+            font-family: 'Pretendard', sans-serif;
+            background-color: #0f172a; /* Slate 900 */
+            color: #e2e8f0; /* Slate 200 */
+        }
+
+        .glass-card {
+            background: rgba(30, 41, 59, 0.7);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        /* Instagram Brand Gradient */
+        .gradient-text {
+            background: linear-gradient(135deg, #833ab4, #fd1d1d, #fcb045);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .btn-glow:hover {
+            box-shadow: 0 0 20px rgba(253, 29, 29, 0.4);
+        }
+
+        .step-number {
+            font-family: 'Pretendard', sans-serif;
+            -webkit-text-stroke: 1px rgba(255,255,255,0.3);
+            color: transparent;
+        }
+    </style>
+</head>
+<body class="antialiased selection:bg-pink-500 selection:text-white">
+
+    <!-- Navigation -->
+    <nav class="fixed top-0 w-full z-50 border-b border-slate-800 bg-slate-900/80 backdrop-blur-md">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex items-center justify-between h-16">
+                <div class="flex items-center gap-2">
+                    <i class="ph-fill ph-instagram-logo text-pink-500 text-2xl"></i>
+                    <span class="font-bold text-lg tracking-tight text-white">Instagram Creator Start <span class="text-xs bg-gradient-to-r from-purple-500 to-pink-500 px-2 py-0.5 rounded-full ml-1 text-white">Guide</span></span>
+                </div>
+                <div class="hidden md:block">
+                    <div class="ml-10 flex items-baseline space-x-4">
+                        <a href="#step-1" class="hover:text-white text-slate-300 px-3 py-2 rounded-md text-sm font-medium transition">1. 가입</a>
+                        <a href="#step-2" class="hover:text-white text-slate-300 px-3 py-2 rounded-md text-sm font-medium transition">2. 전환</a>
+                        <a href="#step-3" class="hover:text-white text-slate-300 px-3 py-2 rounded-md text-sm font-medium transition">3. 꾸미기</a>
+                        <a href="#step-4" class="hover:text-white text-slate-300 px-3 py-2 rounded-md text-sm font-medium transition">4. 보안</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <div class="relative pt-32 pb-20 sm:pt-40 sm:pb-24 overflow-hidden">
+        <div class="absolute inset-0 -z-10">
+            <!-- Instagram Gradient Blur Blob -->
+            <div class="absolute top-0 left-1/2 -translate-x-1/2 w-[1000px] h-[500px] bg-gradient-to-r from-purple-600/30 via-pink-600/30 to-orange-500/30 rounded-full blur-[100px] opacity-40"></div>
+        </div>
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h1 class="text-4xl sm:text-6xl font-bold tracking-tight text-white mb-6">
+                Ai골드러쉬 안주성의 <br class="hidden sm:block" />
+                <span class="gradient-text">인스타그램 계정 만들기 A to Z</span>
+            </h1>
+            <p class="mt-4 text-lg text-slate-400 max-w-2xl mx-auto">
+                브랜딩의 시작, 인스타그램을 가장 확실하게 세팅하는 법.<br>
+                버튼을 누르면 <strong>바로 해당 설정 페이지</strong>로 이동합니다.
+            </p>
+        </div>
+    </div>
+
+    <!-- Main Content -->
+    <main class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 pb-20 space-y-12">
+
+        <!-- Step 1: Sign Up -->
+        <section id="step-1" class="relative">
+            <div class="absolute -left-4 -top-4 text-8xl font-bold step-number opacity-20 select-none">1</div>
+            <div class="glass-card rounded-2xl p-8 border-l-4 border-l-pink-500">
+                <div class="flex flex-col md:flex-row gap-6 items-start">
+                    <div class="flex-1">
+                        <div class="flex items-center gap-3 mb-4">
+                            <div class="p-2 bg-pink-500/20 rounded-lg">
+                                <i class="ph-fill ph-user-plus text-2xl text-pink-400"></i>
+                            </div>
+                            <h2 class="text-2xl font-bold text-white">계정 생성하기 (가입)</h2>
+                        </div>
+                        <p class="text-slate-400 mb-4">
+                            기존 개인 계정과 분리된 <strong>새로운 브랜드용 계정</strong> 생성을 추천합니다. 이메일 또는 전화번호로 가입하세요.
+                        </p>
+                        <ul class="text-sm text-slate-500 space-y-2 mb-6">
+                            <li class="flex items-center gap-2"><i class="ph-bold ph-check text-pink-500"></i> 사용자 이름(ID)은 기억하기 쉬운 영문으로 설정 (AI 연관성이나 쇼핑을 고려해 설정)</li>
+                            <li class="flex items-center gap-2"><i class="ph-bold ph-check text-pink-500"></i> PC 웹에서도 간편하게 가입 가능</li>
+                        </ul>
+                    </div>
+                    <div class="w-full md:w-48 shrink-0">
+                        <a href="https://www.instagram.com/accounts/emailsignup/" target="_blank" class="flex flex-col items-center justify-center w-full h-full min-h-[120px] bg-slate-800 hover:bg-pink-600 border border-slate-700 rounded-xl transition group p-4 text-center">
+                            <i class="ph-bold ph-sign-in text-3xl text-slate-300 group-hover:text-white mb-2 transition"></i>
+                            <span class="text-sm font-bold text-slate-200 group-hover:text-white transition">회원가입 페이지</span>
+                            <span class="text-xs text-slate-500 group-hover:text-pink-200 mt-1 transition">바로 이동 &rarr;</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Step 2: Switch to Professional -->
+        <section id="step-2" class="relative">
+            <div class="absolute -right-4 -top-4 text-8xl font-bold step-number opacity-20 select-none">2</div>
+            <div class="glass-card rounded-2xl p-8 border-l-4 border-l-purple-500">
+                <div class="flex flex-col md:flex-row gap-6 items-start">
+                    <div class="flex-1">
+                        <div class="flex items-center gap-3 mb-4">
+                            <div class="p-2 bg-purple-500/20 rounded-lg">
+                                <i class="ph-fill ph-briefcase text-2xl text-purple-400"></i>
+                            </div>
+                            <h2 class="text-2xl font-bold text-white">프로페셔널 계정 전환</h2>
+                        </div>
+                        <p class="text-slate-400 mb-4">
+                            인사이트(통계) 확인과 광고 집행을 위해 반드시 <strong>[프로페셔널 계정]</strong>으로 전환해야 합니다. '크리에이터' 또는 '비즈니스' 중 선택하세요.
+                        </p>
+                        <div class="bg-slate-800/50 p-4 rounded-lg border border-slate-700 mb-4">
+                            <p class="text-xs text-slate-300">
+                                💡 <strong>Tip:</strong> 모바일 앱: 설정 > 계정 유형 및 도구 > 프로페셔널 계정으로 전환<br>
+                                (웹에서는 프로필 편집 메뉴 하단에서 확인 가능 / 언제든 다시 전환 가능)
+                            </p>
+                        </div>
+                    </div>
+                    <div class="w-full md:w-48 shrink-0">
+                        <a href="https://www.instagram.com/accounts/edit/" target="_blank" class="flex flex-col items-center justify-center w-full h-full min-h-[120px] bg-slate-800 hover:bg-purple-600 border border-slate-700 rounded-xl transition group p-4 text-center btn-glow">
+                            <i class="ph-bold ph-arrows-left-right text-3xl text-slate-300 group-hover:text-white mb-2 transition"></i>
+                            <span class="text-sm font-bold text-slate-200 group-hover:text-white transition">설정 페이지 이동</span>
+                            <span class="text-xs text-slate-500 group-hover:text-purple-200 mt-1 transition">바로 이동 &rarr;</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Step 3: Profile Setup -->
+        <section id="step-3" class="relative">
+            <div class="absolute -left-4 -top-4 text-8xl font-bold step-number opacity-20 select-none">3</div>
+            <div class="glass-card rounded-2xl p-8 border-l-4 border-l-orange-500">
+                <div class="flex flex-col md:flex-row gap-6 items-start">
+                    <div class="flex-1">
+                        <div class="flex items-center gap-3 mb-4">
+                            <div class="p-2 bg-orange-500/20 rounded-lg">
+                                <i class="ph-fill ph-paint-brush-broad text-2xl text-orange-400"></i>
+                            </div>
+                            <h2 class="text-2xl font-bold text-white">프로필 꾸미기 (Bio)</h2>
+                        </div>
+                        <p class="text-slate-400 mb-4">
+                            방문자가 팔로우를 결정하는 가장 중요한 공간입니다. 내가 누구인지, 무엇을 하는지 명확하게 적으세요.
+                        </p>
+                        <ul class="text-sm text-slate-400 space-y-2">
+                            <li><strong>1. 프로필 사진:</strong> 로고나 얼굴이 잘 보이는 고화질 사진 (320x320 권장)</li>
+                            <li><strong>2. 소개(Bio):</strong> 핵심 키워드 포함 + 외부 링크(Linktree 등) 추가 필수</li>
+                        </ul>
+                    </div>
+                    <div class="w-full md:w-48 shrink-0">
+                        <a href="https://www.instagram.com/accounts/edit/" target="_blank" class="flex flex-col items-center justify-center w-full h-full min-h-[120px] bg-slate-800 hover:bg-orange-600 border border-slate-700 rounded-xl transition group p-4 text-center">
+                            <i class="ph-bold ph-pencil-simple text-3xl text-slate-300 group-hover:text-white mb-2 transition"></i>
+                            <span class="text-sm font-bold text-slate-200 group-hover:text-white transition">프로필 편집</span>
+                            <span class="text-xs text-slate-500 group-hover:text-orange-200 mt-1 transition">바로 이동 &rarr;</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Step 4: Security -->
+        <section id="step-4" class="relative">
+            <div class="absolute -right-4 -top-4 text-8xl font-bold step-number opacity-20 select-none">4</div>
+            <div class="glass-card rounded-2xl p-8 border-l-4 border-l-blue-500">
+                <div class="flex flex-col md:flex-row gap-6 items-start">
+                    <div class="flex-1">
+                        <div class="flex items-center gap-3 mb-4">
+                            <div class="p-2 bg-blue-500/20 rounded-lg">
+                                <i class="ph-fill ph-shield-check text-2xl text-blue-400"></i>
+                            </div>
+                            <h2 class="text-2xl font-bold text-white">2단계 보안 설정 (필수)</h2>
+                        </div>
+                        <p class="text-slate-400 mb-4">
+                            인스타그램 해킹 피해가 매우 빈번합니다. 계정을 안전하게 지키기 위해 <strong>2단계 인증(2FA)</strong>을 지금 바로 설정하세요.
+                        </p>
+                        <div class="bg-blue-900/20 p-3 rounded border border-blue-500/30">
+                            <p class="text-sm text-blue-300 flex items-center gap-2">
+                                <i class="ph-bold ph-lock-key"></i> 문자 메시지(SMS) 또는 인증 앱 사용 권장
+                            </p>
+                        </div>
+                    </div>
+                    <div class="w-full md:w-48 shrink-0">
+                        <a href="https://www.instagram.com/accounts/manage_access/" target="_blank" class="flex flex-col items-center justify-center w-full h-full min-h-[120px] bg-slate-800 hover:bg-blue-600 border border-slate-700 rounded-xl transition group p-4 text-center btn-glow">
+                            <i class="ph-bold ph-lock text-3xl text-slate-300 group-hover:text-white mb-2 transition"></i>
+                            <span class="text-sm font-bold text-slate-200 group-hover:text-white transition">보안 설정 페이지</span>
+                            <span class="text-xs text-slate-500 group-hover:text-blue-200 mt-1 transition">바로 이동 &rarr;</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Final Call to Action -->
+        <div class="text-center pt-10 pb-20">
+            <h3 class="text-2xl font-bold text-white mb-4">모든 준비가 끝났습니다!</h3>
+            <p class="text-slate-400 mb-8">이제 첫 번째 릴스나 피드를 올리고 팬들을 만나보세요.</p>
+            <a href="https://www.instagram.com/" target="_blank" class="inline-flex items-center gap-2 px-8 py-4 bg-gradient-to-r from-purple-600 to-pink-500 hover:from-purple-500 hover:to-orange-500 text-white font-bold rounded-full text-lg transition shadow-lg shadow-pink-900/50 transform hover:-translate-y-1">
+                <i class="ph-fill ph-plus-square"></i> 첫 게시물 올리러 가기
+            </a>
+        </div>
+
+    </main>
+
+    <footer class="border-t border-slate-800 bg-slate-900 py-12">
+        <div class="max-w-7xl mx-auto px-4 text-center text-slate-500 text-sm">
+            <p>&copy; 2026 Instagram Creator Guide. Provided by 안주성.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
